@@ -126,13 +126,13 @@ def plot_history(history, skip=0, text=' '):
     fig, axes = plt.subplots(1,2, figsize=(16,6))
     axes[0].set_title('Loss    ' + text); 
     axes[0].plot(history['tloss'][skip:], label='train'); 
-    axes[0].plot(history['vloss'][skip:0], label='val')
+    axes[0].plot(history['vloss'][skip:], label='val')
     axes[0].legend()
     
     max_vacc = max(history['vacc'])
     axes[1].set_title(f'Acc. vbest: {max_vacc:.2f}   ' + text)
-    axes[1].plot(history['tacc'][skip:0], label='train'); 
-    axes[1].plot(history['vacc'][skip:0], label='val')
+    axes[1].plot(history['tacc'][skip:], label='train'); 
+    axes[1].plot(history['vacc'][skip:], label='val')
     axes[1].legend()
 #
 
