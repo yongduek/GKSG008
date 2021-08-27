@@ -19,15 +19,15 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
   1. [Sketch-based deep learning papers](https://github.com/qyzdao/Sketch-Based-Deep-Learning)
   1. [GAN artwork generation](https://github.com/otepencelik/GAN-Artwork-Generation)
   1. [AI Art, github](https://github.com/Adi-iitd/AI-Art)
-    - Neural style transfer, Pix2Pix, CycleGAN
+        - Neural style transfer, Pix2Pix, CycleGAN
 
 # Document Analysis/Understanding
 1. [ICDAR 2019 Tutorial on Deep learning for OCR, Doc Analysis, Text Recog., & Language Modeling](https://github.com/tmbdev-tutorials/icdar2019-tutorial)
 2. [Tesseract-OCR, C++](https://github.com/tesseract-ocr/tesseract)
 3. [MMOCR,pytorch 1.6+](https://github.com/open-mmlab/mmocr)
-  - Full pytorch 
+    - Full pytorch 
 5. [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-  - based on paddle library, similar to pytorch
+    - based on paddle library, similar to pytorch
 7. [Awesome Doc. Understanding](https://github.com/tstanislawek/awesome-document-understanding)
 8. [Deep text recognition benchmark, by Clovaai, pytorch, github](https://github.com/clovaai/deep-text-recognition-benchmark)
 
@@ -37,19 +37,19 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
 2. [Tet-gan: text effects transfer via stylization and destylization, AAAI 2019](https://github.com/williamyang1991/TET-GAN)
 
 # Face detection & recognition
-- [MTCNN](https://github.com/timesler/facenet-pytorch/blob/master/examples/face_tracking.ipynb)
+1. [MTCNN](https://github.com/timesler/facenet-pytorch/blob/master/examples/face_tracking.ipynb)
 
 # Super-Pixel Segmentation
 1. [SpixelFCN: Superpixel Segmentation with Fully Convolutional Network, github](https://github.com/fuy34/superpixel_fcn)
-  - [CVPR'20 paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Superpixel_Segmentation_With_Fully_Convolutional_Networks_CVPR_2020_paper.pdf)
+    - [CVPR'20 paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Superpixel_Segmentation_With_Fully_Convolutional_Networks_CVPR_2020_paper.pdf)
 2. [Superpixels: An evaluation of the state-of-the-art, CVIU 2018, github](https://github.com/davidstutz/superpixel-benchmark)
  
 ### Superpixel w/o CNN
 1. [SLIC Superpixels](https://ivrlwww.epfl.ch/supplementary_material/RK_SLICSuperpixels/index.html)
-  - source code is in opencv & skimage
+    - source code is in opencv & skimage
 3. [opencv slic](https://docs.opencv.org/3.4/d3/da9/classcv_1_1ximgproc_1_1SuperpixelSLIC.html#details)
-  -  SLIC (Simple Linear Iterative Clustering) clusters pixels using pixel channels and image plane space to efficiently generate compact, nearly uniform superpixels. The simplicity of approach makes it extremely easy to use a lone parameter specifies the number of superpixels and the efficiency of the algorithm makes it very practical. Several optimizations are available for SLIC class: SLICO stands for "Zero parameter SLIC" and it is an optimization of baseline SLIC described in [1]. MSLIC stands for "Manifold SLIC" and it is an optimization of baseline SLIC described in [134].
-  -  134: Intrinsic Manifold SLIC: A Simple and Efficient Method for Computing Content-Sensitive Superpixels, Yong-Jin Liu, Minging Yu, bing-Jun Li, Ying He, IEEE TPAMI
+    -  SLIC (Simple Linear Iterative Clustering) clusters pixels using pixel channels and image plane space to efficiently generate compact, nearly uniform superpixels. The simplicity of approach makes it extremely easy to use a lone parameter specifies the number of superpixels and the efficiency of the algorithm makes it very practical. Several optimizations are available for SLIC class: SLICO stands for "Zero parameter SLIC" and it is an optimization of baseline SLIC described in [1]. MSLIC stands for "Manifold SLIC" and it is an optimization of baseline SLIC described in [134].
+    -  134: Intrinsic Manifold SLIC: A Simple and Efficient Method for Computing Content-Sensitive Superpixels, Yong-Jin Liu, Minging Yu, bing-Jun Li, Ying He, IEEE TPAMI
 4. [Opencv SLIC tutorial with python](https://www.pyimagesearch.com/2014/07/28/a-slic-superpixel-tutorial-using-python/)
 5. [Fast Multilevel Superpixel Segmentation (Fast-MSS), github](https://github.com/JordanMakesMaps/Fast-Multilevel-Superpixel-Segmentation)
 6. [Power-SLIC: Diagram-based superpixel generation, 2020, paper only](https://arxiv.org/pdf/2012.11772.pdf)
@@ -59,8 +59,8 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
 - [Detectron2 by FAIR](https://github.com/facebookresearch/detectron2)
 - [UNet pytorch](https://github.com/milesial/Pytorch-UNet)
 - [Segmentation Models in Pytorch](https://github.com/qubvel/segmentation_models.pytorch)
-  - [Cloths segmentation](https://github.com/ternaus/cloths_segmentation)
-    - [Kaggle Competition: iMaterialist (Fashion) 2019 at FGVC6, Fine-Grained Visual Categorization 6](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6
+    - [Cloths segmentation](https://github.com/ternaus/cloths_segmentation)
+        - [Kaggle Competition: iMaterialist (Fashion) 2019 at FGVC6, Fine-Grained Visual Categorization 6](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6
 
 # Neural Style Transfer
 - [Neural Transfer using Pytorch](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
@@ -91,7 +91,7 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
 
 # Recommendation System
 - [Food Discovery with Uber Eats](https://eng.uber.com/uber-eats-graph-learning/#:~:text=The%20Uber%20Eats%20recommendation%20system,restaurants%2C%20in%20a%20scalable%20fashion.)
-  - [How Uber uses Graph Neural Networks to recommend you food (youtube)](https://youtu.be/9O9osybNvyY)
+     - [How Uber uses Graph Neural Networks to recommend you food (youtube)](https://youtu.be/9O9osybNvyY)
 
 # Chatbot
 - [Chatbot Tutorial by PyTorch.org](https://pytorch.org/tutorials/beginner/chatbot_tutorial.html)
@@ -99,6 +99,6 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
 
 # Fine-Grained Visual Categorization
 - [CVPR Workshop 2021](https://sites.google.com/view/fgvc8/papers)
-  - [IndoFashion: Apparel Classification for Indian Ethnic Clothes](https://drive.google.com/file/d/112XZpH24gR2izr5bQmo6lJX80Z6OP_e6/view)
+      - [IndoFashion: Apparel Classification for Indian Ethnic Clothes](https://drive.google.com/file/d/112XZpH24gR2izr5bQmo6lJX80Z6OP_e6/view)
   
   
