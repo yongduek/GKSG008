@@ -4,14 +4,14 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
 
 # Drawing/Cartoon/Anime GAN
 1. [Generative Adversarial Networks for photo to Hayao Miyazaki style cartoons, 2020](https://arxiv.org/abs/2005.07702)
-  - [Cartoon-gan pytorch github by Filip Andersson](https://github.com/FilipAndersson245/cartoon-gan)
+    - [Cartoon-gan pytorch github by Filip Andersson](https://github.com/FilipAndersson245/cartoon-gan)
 1. [CartoonGAN: Generative Adversarial Networks for Photo Cartoonization, 2018, github](https://github.com/znxlwm/pytorch-CartoonGAN)
-  - [another pytorch in github](https://github.com/TobiasSunderdiek/cartoon-gan)
+    - [another pytorch in github](https://github.com/TobiasSunderdiek/cartoon-gan)
 1. [AnimeGANv2, the improved version of AnimeGAN.](https://github.com/TachibanaYoshino/AnimeGANv2)
-  - [pytorch version](https://github.com/bryandlee/animegan2-pytorch)
+    - [pytorch version](https://github.com/bryandlee/animegan2-pytorch)
 1. [Anime Face Drawing by GAN]
-  - [github](https://github.com/jayleicn/animeGAN)
-  - [another github](https://github.com/nikitaa30/Manga-GAN)
+    - [github](https://github.com/jayleicn/animeGAN)
+    - [another github](https://github.com/nikitaa30/Manga-GAN)
 1. [Line Drawings for Face Portraits from Photos using Global and Local Structure based GANs, 2020](https://github.com/yiranran/APDrawingGAN2)
 1. [ArtLine Drawing](https://github.com/vijishmadhavan/ArtLine)
 
