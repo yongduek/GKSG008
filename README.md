@@ -1,4 +1,4 @@
-# gksg008
+# GKSG008/KOS5008 
 
 Files used for GKSG008/KOS5008 Programming for Deep Learning.
 
