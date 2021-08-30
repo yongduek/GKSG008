@@ -39,21 +39,6 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
 # Face detection & recognition
 1. [MTCNN](https://github.com/timesler/facenet-pytorch/blob/master/examples/face_tracking.ipynb)
 
-# Super-Pixel Segmentation
-1. [SpixelFCN: Superpixel Segmentation with Fully Convolutional Network, github](https://github.com/fuy34/superpixel_fcn)
-    - [CVPR'20 paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Superpixel_Segmentation_With_Fully_Convolutional_Networks_CVPR_2020_paper.pdf)
-2. [Superpixels: An evaluation of the state-of-the-art, CVIU 2018, github](https://github.com/davidstutz/superpixel-benchmark)
- 
-### Superpixel w/o CNN
-1. [SLIC Superpixels](https://ivrlwww.epfl.ch/supplementary_material/RK_SLICSuperpixels/index.html)
-    - source code is in opencv & skimage
-3. [opencv slic](https://docs.opencv.org/3.4/d3/da9/classcv_1_1ximgproc_1_1SuperpixelSLIC.html#details)
-    -  SLIC (Simple Linear Iterative Clustering) clusters pixels using pixel channels and image plane space to efficiently generate compact, nearly uniform superpixels. The simplicity of approach makes it extremely easy to use a lone parameter specifies the number of superpixels and the efficiency of the algorithm makes it very practical. Several optimizations are available for SLIC class: SLICO stands for "Zero parameter SLIC" and it is an optimization of baseline SLIC described in [1]. MSLIC stands for "Manifold SLIC" and it is an optimization of baseline SLIC described in [134].
-    -  134: Intrinsic Manifold SLIC: A Simple and Efficient Method for Computing Content-Sensitive Superpixels, Yong-Jin Liu, Minging Yu, bing-Jun Li, Ying He, IEEE TPAMI
-4. [Opencv SLIC tutorial with python](https://www.pyimagesearch.com/2014/07/28/a-slic-superpixel-tutorial-using-python/)
-5. [Fast Multilevel Superpixel Segmentation (Fast-MSS), github](https://github.com/JordanMakesMaps/Fast-Multilevel-Superpixel-Segmentation)
-6. [Power-SLIC: Diagram-based superpixel generation, 2020, paper only](https://arxiv.org/pdf/2012.11772.pdf)
-
 # Object detection & segmentation
 - [SSD tutorial](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection)
         - [A good list of SSD-like CNN-based segmentation (keras, but useful list)](https://github.com/mvoelk/ssd_detectors)
@@ -70,6 +55,21 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
     7. DeepLab-v3 & DeepLab-v3+ 
     - [Cloths segmentation](https://github.com/ternaus/cloths_segmentation)
     - [Kaggle Competition: iMaterialist (Fashion) 2019 at FGVC6, Fine-Grained Visual Categorization 6](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6
+
+# Super-Pixel Segmentation
+1. [SpixelFCN: Superpixel Segmentation with Fully Convolutional Network, github](https://github.com/fuy34/superpixel_fcn)
+    - [CVPR'20 paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Superpixel_Segmentation_With_Fully_Convolutional_Networks_CVPR_2020_paper.pdf)
+2. [Superpixels: An evaluation of the state-of-the-art, CVIU 2018, github](https://github.com/davidstutz/superpixel-benchmark)
+ 
+### Superpixel (SLIC like)
+1. [SLIC Superpixels](https://ivrlwww.epfl.ch/supplementary_material/RK_SLICSuperpixels/index.html)
+    - source code is in opencv & skimage
+3. [opencv slic](https://docs.opencv.org/3.4/d3/da9/classcv_1_1ximgproc_1_1SuperpixelSLIC.html#details)
+    -  SLIC (Simple Linear Iterative Clustering) clusters pixels using pixel channels and image plane space to efficiently generate compact, nearly uniform superpixels. The simplicity of approach makes it extremely easy to use a lone parameter specifies the number of superpixels and the efficiency of the algorithm makes it very practical. Several optimizations are available for SLIC class: SLICO stands for "Zero parameter SLIC" and it is an optimization of baseline SLIC described in [1]. MSLIC stands for "Manifold SLIC" and it is an optimization of baseline SLIC described in [134].
+    -  134: Intrinsic Manifold SLIC: A Simple and Efficient Method for Computing Content-Sensitive Superpixels, Yong-Jin Liu, Minging Yu, bing-Jun Li, Ying He, IEEE TPAMI
+4. [Opencv SLIC tutorial with python](https://www.pyimagesearch.com/2014/07/28/a-slic-superpixel-tutorial-using-python/)
+5. [Fast Multilevel Superpixel Segmentation (Fast-MSS), github](https://github.com/JordanMakesMaps/Fast-Multilevel-Superpixel-Segmentation)
+6. [Power-SLIC: Diagram-based superpixel generation, 2020, paper only](https://arxiv.org/pdf/2012.11772.pdf)
 
 # Neural Style Transfer
 - [Neural Transfer using Pytorch](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
