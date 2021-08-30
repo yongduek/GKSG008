@@ -60,16 +60,16 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
 - [Detectron2 by FAIR](https://github.com/facebookresearch/detectron2)
 - [UNet pytorch](https://github.com/milesial/Pytorch-UNet)
 - [Segmentation Models in Pytorch](https://github.com/qubvel/segmentation_models.pytorch)
-        - [Some competitions won with the library](https://github.com/qubvel/segmentation_models.pytorch/blob/master/HALLOFFAME.md)
-        1. UNet, UNet++
-        2. MANet
-        3. LinkNet
-        4. FPN
-        5. PSPNet
-        6. PAN
-        7. DeepLab-v3 & DeepLab-v3+ 
-        - [Cloths segmentation](https://github.com/ternaus/cloths_segmentation)
-        - [Kaggle Competition: iMaterialist (Fashion) 2019 at FGVC6, Fine-Grained Visual Categorization 6](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6
+    - [Some competitions won with the library](https://github.com/qubvel/segmentation_models.pytorch/blob/master/HALLOFFAME.md)
+    1. UNet, UNet++
+    2. MANet
+    3. LinkNet
+    4. FPN
+    5. PSPNet
+    6. PAN
+    7. DeepLab-v3 & DeepLab-v3+ 
+    - [Cloths segmentation](https://github.com/ternaus/cloths_segmentation)
+    - [Kaggle Competition: iMaterialist (Fashion) 2019 at FGVC6, Fine-Grained Visual Categorization 6](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6
 
 # Neural Style Transfer
 - [Neural Transfer using Pytorch](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
