@@ -108,7 +108,9 @@ Files used for GKSG008/KOS5008 Programming for Deep Learning.
 ## Chatbot
 - [Chatbot Tutorial by PyTorch.org](https://pytorch.org/tutorials/beginner/chatbot_tutorial.html)
 
-
+## Image/Video Captioning
+- [https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)
+- 
 ## Fine-Grained Visual Categorization
 - [CVPR Workshop 2021](https://sites.google.com/view/fgvc8/papers)
       - [IndoFashion: Apparel Classification for Indian Ethnic Clothes](https://drive.google.com/file/d/112XZpH24gR2izr5bQmo6lJX80Z6OP_e6/view)
