@@ -1,2 +1,6 @@
 
 .ipynb_checkpoints/*
+data/MNIST/processed/test.pt
+*.pyc
+*.pth
+*.pt
