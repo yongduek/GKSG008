@@ -4,3 +4,10 @@ data/MNIST/processed/test.pt
 *.pyc
 *.pth
 *.pt
+*/.ipynb_checkpoints/index-checkpoint.ipynb
+*/*/.ipynb_checkpoints/index-checkpoint.ipynb
+*/*/*/.ipynb_checkpoints/index-checkpoint.ipynb
+d2l-en/pytorch/data/*
+d2l-en/pytorch/chapter_preliminaries/.ipynb_checkpoints/*
+d2l-en/pytorch/d2l/.ipynb_checkpoints/*
+d2l-en/pytorch/chapter_linear-networks/.ipynb_checkpoints/*
